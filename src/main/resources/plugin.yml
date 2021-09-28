@@ -1,0 +1,13 @@
+name: Fishery
+version: 1.0.0
+main: me.renzhenniu.fishery.Fishery
+api-version: 1.17
+commands:
+  gui:
+    description: Open a GUI to sell fish
+  test:
+    description: testing purposes
+depend:
+  - Citizens
+  - Vault
+  - HeadDatabase
